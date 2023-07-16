@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>G T tech</title>
+  <style>
+    /* Customize the appearance of the popup */
+    body {
+      width: 250px;
+      height: 125px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      /* Add your custom styles here */
+    }
+
+    textarea {
+      width: 250px;
+      height: 60px;
+      margin-bottom: 10px;
+      resize: none;
+      /* Add your custom styles here */
+    }
+
+    button {
+      width: 100px;
+      height: 30px;
+      /* Add your custom styles here */
+    }
+  </style>
+</head>
+<body>
+  <textarea id="textArea" placeholder="Enter text to correct"></textarea>
+  <button id="correctButton">Correct</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
